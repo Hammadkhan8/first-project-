@@ -1,0 +1,23 @@
+/* 1. Descendant Combinator */
+.descendant p {
+  color: red;
+  font-weight: bold;
+}
+
+/* 2. Child Combinator */
+.child > p {
+  color: blue;
+  font-style: italic;
+}
+
+/* 3. Adjacent Sibling Combinator */
+.sibling h3 + p {
+  color: green;
+  text-decoration: underline;
+}
+
+/* 4. General Sibling Combinator */
+.sibling h3 ~ p {
+  background-color: yellowgreen;
+  border: 1px dashed orange;
+}
